@@ -1,0 +1,92 @@
+<!-- Exercise 3
+Adjust the styles applied to the CSS classes in order to reveal a hidden image (and style it how you please!)
+
+Use the sidebar to edit the code for the content visible in the main section of the page
+Add colours to the CSS classes to see the image start to appear! -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+
+<body>
+    <style type="text/css">
+        .background {
+            background: lightgrey;
+        }
+
+        .head {
+            background: #ffcc00;
+            /* Yellow color for the head */
+        }
+
+        .eyeball {
+            background: white;
+            /* White color for the eyeball */
+            border-color: black;
+            /* Black border for the eyeball */
+        }
+
+        .pupil {
+            color: black;
+            /* Black color for the pupil */
+        }
+
+        .beak {
+            color: orange;
+            /* Orange color for the beak */
+        }
+
+        .body {
+            background: #996633;
+            /* Brown color for the body */
+        }
+
+        .wing {
+            color: blue;
+            /* Blue color for the wing */
+        }
+
+        .drumstick {
+            color: #8B4513;
+            /* Saddle Brown color for the drumstick */
+        }
+
+        .drumstick-right {
+            color: #8B4513;
+            /* Saddle Brown color for the right drumstick */
+        }
+    </style>
+    <div class="canvas background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong>&lt;</strong>
+            </div>
+        </div>
+        <div class="drumsticks">
+            <div class="drumstick">|
+                <br />/|
+            </div>
+            <div class="drumstick drumstick-right">|
+                <br />/|
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

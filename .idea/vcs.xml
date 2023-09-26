@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn/rails/hello_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn/rails/sample_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn/rails/toy_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Project/Demo_w1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Project/Demo_w2" vcs="Git" />
+  </component>
+</project>
