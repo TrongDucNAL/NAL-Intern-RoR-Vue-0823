@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Learn/rails/chapter4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn/rails/chapter_5" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Learn/rails/hello_app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Learn/rails/sample_app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Learn/rails/toy_app" vcs="Git" />
