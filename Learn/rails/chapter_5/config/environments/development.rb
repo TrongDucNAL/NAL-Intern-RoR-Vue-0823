@@ -36,15 +36,18 @@ Rails.application.configure do
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-  host = 'example.com' # Don't use this literally; use your local dev host instead
-  # Use this on the cloud IDE.
-  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
-  # Use this if developing on localhost.
-  # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
-
-  config.action_mailer.perform_caching = false
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { :host => "localhost:3000"}
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: 'smtp.gmail.com', # Địa chỉ SMTP server
+    port: 587, # Port của SMTP server
+    domain: 'gmail.com', # Tên miền của ứng dụng
+    user_name: 'trongduck60.dee.utc@gmail.com', # Tên đăng nhập SMTP
+    password: 'vvmsexghxymubrkt', # Mật khẩu SMTP
+    authentication: 'plain',
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log

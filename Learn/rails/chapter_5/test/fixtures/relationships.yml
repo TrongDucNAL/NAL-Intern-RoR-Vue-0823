@@ -1,0 +1,12 @@
+one:
+  follower: duc
+  followed: lana
+two:
+  follower: duc
+  followed: malory
+three:
+  follower: lana
+  followed: duc
+four:
+  follower: archer
+  followed: duc
